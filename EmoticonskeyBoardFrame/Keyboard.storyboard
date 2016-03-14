@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qVf-pQ-w4F">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Keyboard View Controller-->
+        <scene sceneID="JBG-Va-h1L">
+            <objects>
+                <viewController id="qVf-pQ-w4F" customClass="KeyboardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L2o-I6-q82"/>
+                        <viewControllerLayoutGuide type="bottom" id="PLW-fu-aMd"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="gpX-mM-Nrd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqk-0m-KF9">
+                                <rect key="frame" x="46" y="152" width="35" height="35"/>
+                                <state key="normal" image="globe"/>
+                                <connections>
+                                    <action selector="globeDidPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="gnb-sh-Wbo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxc-0h-bvD">
+                                <rect key="frame" x="118" y="155" width="46" height="30"/>
+                                <state key="normal" title="Space"/>
+                                <connections>
+                                    <action selector="spaceDidPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="gya-Mf-NuY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhI-1M-ugS">
+                                <rect key="frame" x="197" y="152" width="35" height="35"/>
+                                <state key="normal" image="return"/>
+                                <connections>
+                                    <action selector="returnDidpress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="uCG-QO-Bbg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxu-xT-xOU">
+                                <rect key="frame" x="51" y="33" width="30" height="30"/>
+                                <state key="normal" title="a"/>
+                                <connections>
+                                    <action selector="characterPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="OIF-J8-XrP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkd-Aw-Oub">
+                                <rect key="frame" x="122" y="33" width="30" height="30"/>
+                                <state key="normal" title="b"/>
+                                <connections>
+                                    <action selector="characterPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="jsc-PI-FKt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulR-Nt-VO7">
+                                <rect key="frame" x="202" y="33" width="30" height="30"/>
+                                <state key="normal" title="c"/>
+                                <connections>
+                                    <action selector="characterPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="eiV-Ka-klr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsg-4C-zob">
+                                <rect key="frame" x="56" y="71" width="30" height="30"/>
+                                <state key="normal" title="d"/>
+                                <connections>
+                                    <action selector="characterPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="Zbf-Oe-e8Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjL-hQ-BG2">
+                                <rect key="frame" x="207" y="71" width="30" height="30"/>
+                                <state key="normal" title="f"/>
+                                <connections>
+                                    <action selector="characterPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="Tho-FO-hjw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yY5-Bf-GUl">
+                                <rect key="frame" x="115" y="109" width="46" height="30"/>
+                                <state key="normal" title="g"/>
+                                <connections>
+                                    <action selector="characterPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="KYP-T5-C16"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvQ-gj-jYT">
+                                <rect key="frame" x="207" y="109" width="35" height="35"/>
+                                <state key="normal" image="backspace"/>
+                                <connections>
+                                    <action selector="deleteDidPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="Fzv-UL-Mh9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8G9-QV-O6E">
+                                <rect key="frame" x="123" y="71" width="30" height="30"/>
+                                <state key="normal" title="e"/>
+                                <connections>
+                                    <action selector="characterPress:" destination="qVf-pQ-w4F" eventType="touchUpInside" id="y8n-T2-xgF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="216"/>
+                    <connections>
+                        <outlet property="SpaceBtn" destination="dxc-0h-bvD" id="dfJ-6s-Mgp"/>
+                        <outlet property="deleteBtn" destination="DvQ-gj-jYT" id="F68-ei-iWc"/>
+                        <outlet property="globeBtn" destination="Fqk-0m-KF9" id="kth-id-d3g"/>
+                        <outlet property="returnBtn" destination="AhI-1M-ugS" id="ri1-pr-GTH"/>
+                        <outletCollection property="characterListBtn" destination="bkd-Aw-Oub" id="PhW-qV-fUC"/>
+                        <outletCollection property="characterListBtn" destination="ulR-Nt-VO7" id="HSp-Sb-vji"/>
+                        <outletCollection property="characterListBtn" destination="gxu-xT-xOU" id="dqq-P1-7GZ"/>
+                        <outletCollection property="characterListBtn" destination="Rsg-4C-zob" id="rr4-dv-9j1"/>
+                        <outletCollection property="characterListBtn" destination="8G9-QV-O6E" id="c1X-Pc-oGt"/>
+                        <outletCollection property="characterListBtn" destination="QjL-hQ-BG2" id="uWe-Wd-SjL"/>
+                        <outletCollection property="characterListBtn" destination="yY5-Bf-GUl" id="9km-5m-hyx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68s-k1-dsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="378"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backspace" width="35" height="35"/>
+        <image name="globe" width="35" height="35"/>
+        <image name="return" width="35" height="35"/>
+    </resources>
+</document>

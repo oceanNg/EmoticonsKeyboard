@@ -16,6 +16,10 @@
 		C896FC1C1C93E42100DDFB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C896FC1A1C93E42100DDFB6F /* LaunchScreen.storyboard */; };
 		C896FC271C93E42100DDFB6F /* EmoticonsKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C896FC261C93E42100DDFB6F /* EmoticonsKeyboardTests.m */; };
 		C896FC321C93E42100DDFB6F /* EmoticonsKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C896FC311C93E42100DDFB6F /* EmoticonsKeyboardUITests.m */; };
+		C896FC471C93E44500DDFB6F /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C896FC461C93E44500DDFB6F /* KeyboardViewController.m */; };
+		C896FC4B1C93E44500DDFB6F /* EmoticonskeyBoardFrame.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C896FC431C93E44500DDFB6F /* EmoticonskeyBoardFrame.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C896FC531C93E58200DDFB6F /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C896FC521C93E58200DDFB6F /* Keyboard.storyboard */; };
+		C896FC551C93E66D00DDFB6F /* KeyArt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C896FC541C93E66D00DDFB6F /* KeyArt.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +37,28 @@
 			remoteGlobalIDString = C896FC051C93E42100DDFB6F;
 			remoteInfo = EmoticonsKeyboard;
 		};
+		C896FC491C93E44500DDFB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C896FBFE1C93E42100DDFB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C896FC421C93E44500DDFB6F;
+			remoteInfo = EmoticonskeyBoardFrame;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C896FC4F1C93E44500DDFB6F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C896FC4B1C93E44500DDFB6F /* EmoticonskeyBoardFrame.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C896FC061C93E42100DDFB6F /* EmoticonsKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoticonsKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +78,12 @@
 		C896FC2D1C93E42100DDFB6F /* EmoticonsKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoticonsKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C896FC311C93E42100DDFB6F /* EmoticonsKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoticonsKeyboardUITests.m; sourceTree = "<group>"; };
 		C896FC331C93E42100DDFB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C896FC431C93E44500DDFB6F /* EmoticonskeyBoardFrame.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EmoticonskeyBoardFrame.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C896FC451C93E44500DDFB6F /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		C896FC461C93E44500DDFB6F /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		C896FC481C93E44500DDFB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C896FC521C93E58200DDFB6F /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
+		C896FC541C93E66D00DDFB6F /* KeyArt.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KeyArt.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +108,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C896FC401C93E44500DDFB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +124,7 @@
 				C896FC081C93E42100DDFB6F /* EmoticonsKeyboard */,
 				C896FC251C93E42100DDFB6F /* EmoticonsKeyboardTests */,
 				C896FC301C93E42100DDFB6F /* EmoticonsKeyboardUITests */,
+				C896FC441C93E44500DDFB6F /* EmoticonskeyBoardFrame */,
 				C896FC071C93E42100DDFB6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +135,7 @@
 				C896FC061C93E42100DDFB6F /* EmoticonsKeyboard.app */,
 				C896FC221C93E42100DDFB6F /* EmoticonsKeyboardTests.xctest */,
 				C896FC2D1C93E42100DDFB6F /* EmoticonsKeyboardUITests.xctest */,
+				C896FC431C93E44500DDFB6F /* EmoticonskeyBoardFrame.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +183,18 @@
 			path = EmoticonsKeyboardUITests;
 			sourceTree = "<group>";
 		};
+		C896FC441C93E44500DDFB6F /* EmoticonskeyBoardFrame */ = {
+			isa = PBXGroup;
+			children = (
+				C896FC451C93E44500DDFB6F /* KeyboardViewController.h */,
+				C896FC461C93E44500DDFB6F /* KeyboardViewController.m */,
+				C896FC521C93E58200DDFB6F /* Keyboard.storyboard */,
+				C896FC541C93E66D00DDFB6F /* KeyArt.xcassets */,
+				C896FC481C93E44500DDFB6F /* Info.plist */,
+			);
+			path = EmoticonskeyBoardFrame;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,10 +205,12 @@
 				C896FC021C93E42100DDFB6F /* Sources */,
 				C896FC031C93E42100DDFB6F /* Frameworks */,
 				C896FC041C93E42100DDFB6F /* Resources */,
+				C896FC4F1C93E44500DDFB6F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C896FC4A1C93E44500DDFB6F /* PBXTargetDependency */,
 			);
 			name = EmoticonsKeyboard;
 			productName = EmoticonsKeyboard;
@@ -199,6 +253,23 @@
 			productReference = C896FC2D1C93E42100DDFB6F /* EmoticonsKeyboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C896FC421C93E44500DDFB6F /* EmoticonskeyBoardFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C896FC4C1C93E44500DDFB6F /* Build configuration list for PBXNativeTarget "EmoticonskeyBoardFrame" */;
+			buildPhases = (
+				C896FC3F1C93E44500DDFB6F /* Sources */,
+				C896FC401C93E44500DDFB6F /* Frameworks */,
+				C896FC411C93E44500DDFB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmoticonskeyBoardFrame;
+			productName = EmoticonskeyBoardFrame;
+			productReference = C896FC431C93E44500DDFB6F /* EmoticonskeyBoardFrame.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +290,9 @@
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = C896FC051C93E42100DDFB6F;
 					};
+					C896FC421C93E44500DDFB6F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = C896FC011C93E42100DDFB6F /* Build configuration list for PBXProject "EmoticonsKeyboard" */;
@@ -237,6 +311,7 @@
 				C896FC051C93E42100DDFB6F /* EmoticonsKeyboard */,
 				C896FC211C93E42100DDFB6F /* EmoticonsKeyboardTests */,
 				C896FC2C1C93E42100DDFB6F /* EmoticonsKeyboardUITests */,
+				C896FC421C93E44500DDFB6F /* EmoticonskeyBoardFrame */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +338,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896FC411C93E44500DDFB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896FC531C93E58200DDFB6F /* Keyboard.storyboard in Resources */,
+				C896FC551C93E66D00DDFB6F /* KeyArt.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +380,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C896FC3F1C93E44500DDFB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896FC471C93E44500DDFB6F /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -308,6 +400,11 @@
 			isa = PBXTargetDependency;
 			target = C896FC051C93E42100DDFB6F /* EmoticonsKeyboard */;
 			targetProxy = C896FC2E1C93E42100DDFB6F /* PBXContainerItemProxy */;
+		};
+		C896FC4A1C93E44500DDFB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C896FC421C93E44500DDFB6F /* EmoticonskeyBoardFrame */;
+			targetProxy = C896FC491C93E44500DDFB6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -483,6 +580,28 @@
 			};
 			name = Release;
 		};
+		C896FC4D1C93E44500DDFB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmoticonskeyBoardFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carpediem.EmoticonsKeyboard.EmoticonskeyBoardFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C896FC4E1C93E44500DDFB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmoticonskeyBoardFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carpediem.EmoticonsKeyboard.EmoticonskeyBoardFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +635,14 @@
 			buildConfigurations = (
 				C896FC3D1C93E42100DDFB6F /* Debug */,
 				C896FC3E1C93E42100DDFB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C896FC4C1C93E44500DDFB6F /* Build configuration list for PBXNativeTarget "EmoticonskeyBoardFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C896FC4D1C93E44500DDFB6F /* Debug */,
+				C896FC4E1C93E44500DDFB6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
